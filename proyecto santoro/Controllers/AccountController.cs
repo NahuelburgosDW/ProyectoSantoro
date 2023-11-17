@@ -29,11 +29,11 @@ namespace proyecto_santoro.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(string userName, string password)
         {
-
-            if (userName != null) {
+            /*
+            if (userName) {
                 return BadRequest("esta mal");
             }
-
+            */
             var usuarioNuevo = new Table1()
             {
                 Usuario = userName,
@@ -44,7 +44,7 @@ namespace proyecto_santoro.Controllers
             await _context.SaveChangesAsync();
 
 
-            return RedirectToAction("Index");
+            return Json(new { redirectTo = Url.Action("Register", "Account") });
         }
     }
 }

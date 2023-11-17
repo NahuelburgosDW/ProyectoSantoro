@@ -26,7 +26,7 @@ public partial class ProyectoContext : DbContext
     {
         modelBuilder.Entity<Table1>(entity =>
         {
-            entity.ToTable("Table_1");
+            entity.ToTable("Usuarios");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Contraseña)
