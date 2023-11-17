@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Registro";
+}
+
+<div class="container">
+    <h2 class="text-center">Crear Cuenta</h2>
+    <form asp-controller="Account" asp-action="Register" method="post" class="needs-validation" novalidate>
+        <div class="form-group">
+            <label for="UserName">Usuario:</label>
+            <input type="text" class="form-control" id="UserName" name="UserName" required>
+            <div class="invalid-feedback">Por favor, ingrese un nombre de usuario.</div>
+        </div>
+        <div class="form-group">
+            <label for="Password">Contraseña:</label>
+            <input type="password" class="form-control" id="Password" name="Password" required>
+            <div class="invalid-feedback">Por favor, ingrese una contraseña.</div>
+        </div>
+        <!-- Puedes agregar más campos según tus necesidades, como correo electrónico, etc. -->
+        <button type="submit" class="btn btn-primary">Crear Cuenta</button>
+    </form>
+</div>
