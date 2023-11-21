@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Nahuf/source/repos/ProyectoSantoro/proyecto santoro/Views/Home/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Nahuf/source/repos/ProyectoSantoro/proyecto santoro/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,12 +32,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nahuf/source/repos/ProyectoSantoro/proyecto santoro/Views/Inicio/Inicio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Nahuf/source/repos/ProyectoSantoro/proyecto santoro/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nahuf/source/repos/ProyectoSantoro/proyecto santoro/Views/Shared/_RegistroExitoso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWdpc3Ryb0V4aXRvc28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Nahuf/source/repos/ProyectoSantoro/proyecto santoro/Views/Shared/_ValidationScriptsPartial.cshtml]
