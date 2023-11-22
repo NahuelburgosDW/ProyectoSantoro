@@ -1,0 +1,53 @@
+.logo{
+    width: 20vw;
+}
+main{
+    /* height: 90vh; */
+    background-color: whitesmoke;
+}
+.btn-success{
+    background-color: #7ED957 !important;
+    border: #7ED957 !important;
+}
+header {
+    background-color: #28a745;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    z-index: 2; /* Asegúrate de que el índice Z sea mayor */
+}
+.logo{
+    margin-top: 5vh;
+}
+.img-fluid{
+    height: 20vh;
+}
+a{
+    font-size: 30px;
+    height: 15vh; 
+    text-align: center;
+}
+main {
+    container: 50%;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1; /* Puedes ajustar el índice Z según sea necesario */
+}
+.alert-success-custom {
+    background-color: #28a745; /* Color de fondo verde */
+    border-color: #218838; /* Color del borde verde oscuro */
+    color: #ffffff; /* Color del texto blanco */
+}
+
+.alert-success-custom a {
+  color: #ffc107; /* Color de los enlaces en amarillo */
+    }
+
+.alert-success-custom a:hover {
+    text-decoration: underline; /* Subrayar enlaces al pasar el mouse */
+        }

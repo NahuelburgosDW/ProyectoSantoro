@@ -49,6 +49,7 @@ namespace proyecto_santoro.Controllers
 
         [HttpPost]
         [HttpPost]
+        [HttpPost]
         public IActionResult Login(string UserName, string Password)
         {
             // Lógica para verificar las credenciales del usuario
@@ -60,18 +61,17 @@ namespace proyecto_santoro.Controllers
                 // Aquí deberías tener tu lógica de autenticación real
 
                 // Redirigir a la página de inicio si el inicio de sesión es exitoso
-                return View("~/Views/Home/Inicio.cshtml");
+                return View("~/Views/Home/Inicio.cshtml"); // Especifica la ruta correcta
 
             }
             else
             {
                 // Las credenciales son incorrectas, podrías redirigir a una página de error
                 // o mostrar un mensaje de error en la vista Login
-                return View("Inicio", new { error = "Credenciales incorrectas" });
+                return View("~/Views/Home/Inicio.cshtml", new { error = "Credenciales incorrectas" }); // Especifica la ruta correcta y el modelo
             }
-            
-
         }
+
 
 
     }

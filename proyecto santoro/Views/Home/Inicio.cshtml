@@ -1,87 +1,123 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Caddie</title>
-        <!-- BOOTSTRAP -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <!-- MIS ESTILOS CSS -->
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <header class="bg-success h-25 d-flex flex-column justify-content-center align-items-center">
-            <img class="logo" src="images/logo.png" alt="logo">
-            <h5 class="">Caddie Movil</h5>
-        </header>
-        <main class="container  py-2 d-flex flex-column justify-content-around px-4">
-            <div class="row">
-                <div class=" col-4 d-flex align-items-center justify-content-center">
-                    <img class="img-fluid" src="images/user.svg" alt="">
-                </div>
-                <div class=" col-8 d-flex justify-content-center align-items-center">
-                    <div class="w-75 d-flex">
-                        <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
-                            Perfil
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-4 d-flex align-items-center justify-content-center">
-                    <img class="img-fluid" src="images/file.svg" alt="">
-                </div>
-                <div class="col-8 d-flex justify-content-center align-items-center">
-                    <div class="w-75 d-flex">
-                        <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
-                            Almacenamiento
-                        </a>
-                    </div>
-                </div>
+﻿@{
+    Layout = null;
 
-            </div>
-            <div class="row">
-                <div class=" col-4 d-flex align-items-center justify-content-center">
-                    <img class="img-fluid" src="images/cloud.png" alt="">
-                </div>
-                <div class=" col-8 d-flex justify-content-center align-items-center">
-                    <div class="w-75 d-flex">
-                        <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
-                            Clima
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4 d-flex align-items-center justify-content-center">
-                    <img class="img-fluid" src="images/juego.png" alt="" style="">
-                </div>
-                <div class="col-8 d-flex justify-content-center align-items-center">
-                    <div class="w-75 d-flex aling-items-center">
-                        <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
-                            Juego
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-4 d-flex align-items-center justify-content-center">
-                    <img class="img-fluid" src="images/settings.svg" alt="">
-                </div>
-                <div class=" col-8 d-flex justify-content-center align-items-center">
-                    <div class="w-75 d-flex">
-                        <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
-                            Config
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </body>
-    </html>
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caddie</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- MIS ESTILOS CSS -->
+    <link rel="stylesheet" href="~/css/index.css">
+</head>
+<body>
+    <header class="bg-success h-25 d-flex flex-column justify-content-center align-items-center">
+        <img class="logo" src="~/imagenes/logo.png" alt="logo">
+        <h5 class="">Caddie Movil</h5>
+    </header>
+    <main class="container  py-2 d-flex flex-column justify-content-around px-4">
+        <div class="row">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="~/imagenes/user.svg" alt="">
+            </div>
+            <div class="col-8 d-flex justify-content-center align-items-center">
+                <div class="w-75 d-flex">
+                    <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="perfilCrear.html">
+                        Perfil
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="~/imagenes/file.svg" alt="">
+            </div>
+            <div class="col-8 d-flex justify-content-center align-items-center">
+                <div class="w-75 d-flex">
+                    <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
+                        Almacenamiento
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="~/imagenes/cloud.png" alt="">
+            </div>
+            <div class="col-8 d-flex justify-content-center align-items-center">
+                <div class="w-75 d-flex">
+                    <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
+                        Clima
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="~/imagenes/juego.png" alt="">
+            </div>
+            <div class="col-8 d-flex justify-content-center align-items-center">
+                <div class="w-75 d-flex aling-items-center">
+                    <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
+                        Juego
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="~/imagenes/settings.svg" alt="">
+            </div>
+            <div class="col-8 d-flex justify-content-center align-items-center">
+                <div class="w-75 d-flex">
+                    <a class="w-100 btn btn-success rounded-5 d-flex align-items-center justify-content-center btn-lg" href="">
+                        Config
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="container py-2 d-flex flex-column justify-content-around px-4" id="contentContainer">
+        <!-- Contenido dinámico se cargará aquí -->
+    </main>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        // Función para cargar contenido dinámico en el contenedor
+        function loadContent(content) {
+            // Puedes personalizar esta función según tus necesidades
+            var contentHTML = '';
+
+            if (content === 'Almacenamiento') {
+                // Contenido específico para Almacenamiento
+                contentHTML = '<h2>Contenido de Almacenamiento</h2><p>Aquí puedes agregar información sobre almacenamiento.</p>';
+            } else if (content === 'OtraSeccion') {
+                // Contenido específico para OtraSeccion
+                contentHTML = '<h2>Otra Sección</h2><p>Aquí puedes agregar información específica para OtraSeccion.</p>';
+            }
+
+            // Actualiza el contenido del contenedor
+            document.getElementById('contentContainer').innerHTML = contentHTML;
+        }
+
+        // Manejadores de eventos para los botones
+        document.getElementById('btnAlmacenamiento').addEventListener('click', function () {
+            loadContent('Almacenamiento');
+        });
+
+        document.getElementById('btnOtraSeccion').addEventListener('click', function () {
+            loadContent('OtraSeccion');
+        });
+
+            // Repite el proceso para otros botones...
+    </script>
+
+</body>
+</html>

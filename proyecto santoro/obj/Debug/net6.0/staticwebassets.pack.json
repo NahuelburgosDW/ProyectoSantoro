@@ -5,12 +5,36 @@
       "PackagePath": "staticwebassets\\proyecto santoro.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
       "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\imagenes\\cloud.png",
+      "PackagePath": "staticwebassets\\imagenes\\cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\imagenes\\file.svg",
+      "PackagePath": "staticwebassets\\imagenes\\file.svg"
+    },
+    {
+      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\imagenes\\juego.png",
+      "PackagePath": "staticwebassets\\imagenes\\juego.png"
+    },
+    {
+      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\imagenes\\logo.png",
+      "PackagePath": "staticwebassets\\imagenes\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\imagenes\\settings.svg",
+      "PackagePath": "staticwebassets\\imagenes\\settings.svg"
+    },
+    {
+      "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\imagenes\\user.svg",
+      "PackagePath": "staticwebassets\\imagenes\\user.svg"
     },
     {
       "Id": "C:\\Users\\Nahuf\\source\\repos\\ProyectoSantoro\\proyecto santoro\\wwwroot\\js\\site.js",
